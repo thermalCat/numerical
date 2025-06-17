@@ -3,6 +3,10 @@ The subject of numerical modelling came up recently, which reminded me of a phys
 
 With this project I'll recreate & revisit as much of the task as I can, and as a bonus I'll test drive some of the AI code tools everyone's banging on about.
 
+The code is contained within a single file: [Taylor.py](talyor.py) which is run without any parameters, as it stands.
+Dependancies are numpy 1.21.2 and matplotlib 3.4.3
+([RK4.py](RK4.py) shouldn't be committed yet. VSCode said it was untracked, but here it is anyway)
+
 I've selected [CoPilot](https://copilot.microsoft.com/) for a chatbot and [GitHub-CoPilot](https://github.com/features/copilot)  as an AI Coding Assistant, as it integrates easily into VS-Code. For brevity, I'll refer to these as Copilot and GitHub-AI respectively.
 
 ## First thoughts on CoPilot
