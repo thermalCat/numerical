@@ -1,4 +1,7 @@
 # numerical
+![Figure_1](https://github.com/user-attachments/assets/293c51bc-4948-427f-a6dc-efa73a1342fe)
+
+
 The subject of numerical modelling came up recently, which reminded me of a physics laboratory exercise (going back to about 1994 here!) which was an introduction to using numerical methods. The theme was a Restricted 3 body problem - earth, moon and spaceship.
 
 With this project I'll recreate & revisit as much of the task as I can, and as a bonus I'll test drive some of the AI code tools everyone's banging on about.
@@ -37,9 +40,7 @@ Whilst refactoring the code from a simple 'stationary earth' model to account fo
 After some head scratching I realised that earth & moon should have the same angular velocities, but travel in antiphase.
 To be fair, when I pointed this out, the AI agreed and provided a correction.
 
-One area that seems to be lacking in AI is humility! Sam Altman famously quiped that users typing please & thankyou had added many millions to OpenAI's electricity bills. Concepts like apology would of course be add to that waste.
-
-I can, however see value in curating a dedicated 'oops' database, from which more careful & reliable models could be developed. I would wager that a good deal of what makes human engineers trustworthy is that we apply a higher weighting to our mistakes, which are a source of embarassment, than to our successes, which we tend to take for granted.
+One area that seems to be lacking in AI is humility! Sam Altman famously quiped that users typing please & thankyou had added many millions to OpenAI's electricity bills. Concepts like apology would of course be add to that waste. I can, however see value in curating a dedicated 'oops' database, from which more careful & reliable models could be developed. I would wager that a good deal of what makes human engineers trustworthy is that we apply a higher weighting to our mistakes, which are a source of embarassment, than to our successes, which we tend to take for granted.
 
 # Possible Improvements & Next step
 Asking AI to write a test suite seems the obvious next step. This seems already pretty common in AI workflows, I've already seen people on LinkedIn recommending it.
