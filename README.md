@@ -6,8 +6,11 @@ The subject of numerical modelling came up recently, which reminded me of a phys
 
 With this project I'll recreate & revisit as much of the task as I can, and as a bonus I'll test drive some of the AI code tools everyone's banging on about.
 
-The code is contained within a single file: [taylor.py](taylor.py) which is run without any parameters, as it stands.
-Dependancies are numpy 1.21.2 and matplotlib 3.4.3
+The simulation code is contained within a single file: [simulate_earth_moon_transfer.py](simulate_earth_moon_transfer.py). An example of use is provided [example.py](example.py) which gets fairly close to the moon, but actual transfer hasn't been implemented yet.
+The Dependancies are: 
+* numpy 1.21.2
+* scipy 1.10.1
+* matplotlib 3.4.3
 
 I've selected [CoPilot](https://copilot.microsoft.com/) for a chatbot and [GitHub-CoPilot](https://github.com/features/copilot)  as an AI Coding Assistant, as it integrates easily into VS-Code. For brevity, I'll refer to these as Copilot and GitHub-AI respectively.
 
@@ -21,8 +24,8 @@ Code that terminates the series in the event of collision with either body.
 Copilot acknowledges the omission, and gives the moon a circular orbit, with the correct period. 
 
 ### Just occasionally a pearl of wisdom will appear unnanounced:
-I noticed that gravitational forces had a factor $\vec{ r } \div \vec{ r }^3$ instead the expected $1 \div \vec{r}^2$.
-This is a neat trick which avoids losing the direction information when squaring the vector r. I have, in the past, solved similar problems by calculating magnitude & direction seperately and then reconstructing the vector. This is elegant in a good way: the simple & obvious kind, not the showing off kind.
+I noticed that acceleration due to gravity had a factor $\vec{ r } \div \vec{ r }^3$ instead the expected $1 \div \vec{r}^2$.
+This is a neat trick which avoids losing the direction information when squaring the vector r. I have, in the past, solved similar problems by calculating magnitude & direction seperately and then reconstructing the vector. This is elegant in a good way: Obvious when it's pointed out.
 
 ## First thoughts on github AI autocomplete
 Intelisense on steroids.
