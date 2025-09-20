@@ -12,7 +12,7 @@ The Dependancies are:
 * scipy 1.10.1
 * matplotlib 3.4.3
 
-I've selected [CoPilot](https://copilot.microsoft.com/) for a chatbot and [GitHub-CoPilot](https://github.com/features/copilot)  as an AI Coding Assistant, as it integrates easily into VS-Code. For brevity, I'll refer to these as Copilot and GitHub-AI respectively.
+I've selected [CoPilot](https://copilot.microsoft.com/) for a chatbot and [GitHub-CoPilot](https://github.com/features/copilot)  as an AI Coding Assistant, as it integrates easily into VS-Code.
 
 ## First thoughts on CoPilot
 ### Some things it will give you without a struggle
